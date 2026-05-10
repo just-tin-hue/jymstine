@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>JXFolio – Justine Earl Jayoma</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+  <!-- Particles -->
+  <div class="particle p1"></div>
+  <div class="particle p2"></div>
+  <div class="particle p3"></div>
+
+  <!-- ── NAV ── -->
+  <nav>
+    <a href="#home" class="nav-brand">JX<span>Folio</span></a>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#services">Services</a></li>
+    </ul>
+    <a href="#contact" class="btn-contact">Contact Me</a>
+    <!-- Hamburger (mobile only) -->
+    <button class="hamburger" id="hamburger" aria-label="Open menu">
+      <span></span><span></span><span></span>
+    </button>
+  </nav>
+
+  <!-- Mobile drawer -->
+  <div class="mobile-drawer" id="mobileDrawer">
+    <a href="#home"     onclick="closeDrawer()">Home</a>
+    <a href="#about"    onclick="closeDrawer()">About</a>
+    <a href="#projects" onclick="closeDrawer()">Projects</a>
+    <a href="#services" onclick="closeDrawer()">Services</a>
+    <a href="#contact"  onclick="closeDrawer()" class="btn-contact">Contact Me</a>
+  </div>
+
+  <!-- ── HOME ── -->
+  <section id="home">
+    <!-- Social sidebar -->
+    <div class="social-sidebar">
+      <a href="https://facebook.com" target="_blank" class="social-icon" title="Facebook">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+      </a>
+      <a href="https://instagram.com" target="_blank" class="social-icon" title="Instagram">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+      </a>
+      <a href="https://wa.me/639392568056" target="_blank" class="social-icon" title="WhatsApp">
+        <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+      </a>
+      <a href="mailto:occ.jayoma.justinearll@gmail.com" class="social-icon" title="Email">
+        <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+      </a>
+    </div>
+
+    <!-- Left text -->
+    <div class="home-text">
+      <p class="home-greeting">Hello, Im <span>Justine</span></p>
+      <h1 class="home-title">
+        I'm <span class="blue">Full Stack</span>, Web<br>Developer 💻
+      </h1>
+      <p class="home-subtitle">
+        Hello, my name is <span>Justine</span> I'm Creative in Creating Different Websites
+      </p>
+      <div class="home-buttons">
+        <a href="#contact" class="btn-primary">Get in Touch</a>
+        <a href="#projects" class="btn-secondary">View my Work</a>
+      </div>
+      <div class="exp-label">|Experience Snapshot</div>
+      <div class="stats">
+        <div>
+          <div class="stat-num">35+</div>
+          <div class="stat-label">Project Completed</div>
+        </div>
+        <div>
+          <div class="stat-num">4+</div>
+          <div class="stat-label">Years Experience</div>
+        </div>
+        <div>
+          <div class="stat-num">40+</div>
+          <div class="stat-label">Satisfied Customers</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Right image -->
+    <div class="home-image-wrap">
+      <div class="home-photo-bg">
+        <img src="earl.png" alt="me">
+      </div>
+    </div>
+  </section>
+
+  <!-- ── ABOUT ── -->
+  <section id="about">
+    <div class="about-photo-ring reveal">
+      <img src="jjustine3.png" alt="me">
+    </div>
+    <p class="about-name reveal">I'm Justine Earl Jayoma 👋</p>
+    <h2 class="about-role reveal">Full Stack | Web Developer 💻</h2>
+    <p class="about-desc reveal">
+      Hi, I'm a full stack web developer with experience in building dynamic and user-friendly web applications.
+      I work with both front-end and back-end technologies, allowing me to create complete, efficient, and scalable solutions.
+      I'm passionate about writing clean code, solving problems, and continuously learning new tools to improve my craft.
+    </p>
+  </section>
+
+  <!-- ── PROJECTS ── -->
+  <section id="projects">
+    <div class="projects-header reveal">
+      <h2>EXPLORE MY CREATIVE WORK</h2>
+      <p>
+        This project showcases my skills as a full stack web developer.
+        I built a user-friendly web application by handling both the front-end design and back-end functionality.
+        It demonstrates my ability to create responsive interfaces and manage data efficiently.
+      </p>
+    </div>
+
+    <!-- Front-End Block -->
+    <div class="project-block frontend reveal">
+      <div class="project-info">
+        <h3>FRONT-END</h3>
+        <p>
+          The front-end of this project focuses on creating a clean and user-friendly interface.
+          I designed responsive layouts and interactive elements to ensure a smooth experience across
+          different devices. Languages used for Front-End build: HTML, CSS, and JavaScript.
+        </p>
+      </div>
+
+      <div class="project-images">
+        <div class="proj-img-box"><img src="comscie.jfif" alt="pic"></div>
+        <div class="proj-img-box"><img src="frontend.png" alt="pic"></div>
+        <div class="proj-img-box"><img src="computer.jfif" alt="pic"></div>
+        <div class="proj-img-box"><img src="knowledge1.png" alt="pic"></div>
+      </div>
+    </div>
+
+    <!-- Back-End Block -->
+    <div class="project-block backend reveal">
+      <div class="project-images">
+        <div class="proj-img-box code-dark">orderby
+$popularpos
+has_post_thumb
+col-sm-6
+col-md-6
+col-sm-6 col-0
+post_thumbnail</div>
+        <div class="proj-img-box code-dark">WHERE subject_ID
+subjectWithSubject{
+  if(subject.length>0){
+    subjectAverage=0;
+    datasetsWithSubjectLen
+    .forEach((dataset)=>{
+      subjectAvg+=parseFloat
+    })
+  }
+  subjectAverage/data</div>
+        <div class="proj-img-box code-dark">background: #200px
+{todoItem} data
+persisted props
+errorMessage=no
+color:orange; HTML
+font code
+todoitem(data) HTML
+self=this HTML err
+dta_ll HTML error
+ersisted properties
+rorMessage=text-200
+nt-weight:bold HTML</div>
+        <div class="proj-img-box code-dark">missingRequireArgs(num){
+  newException('EMISSARG')
+}
+on unknownType(num,type){
+  return newException('EUNKNOWN')
+}
+function invalidType(num,expectedTypes,val){
+  var valueType
+  Object.keys(types).forEach
+  if(types[typeCode].check(val))
+    return newException('EINVALID')
+    englishList(expectedTypes)</div>
+      </div>
+      <div class="project-info">
+        <h3>BACK-END</h3>
+        <p>
+          The back-end is built to handle server logic, database management, and user data processing.
+          It ensures the application runs smoothly and securely. Also back-end is built using Node.js
+          and MySQL to handle server logic, manage the database, and process user data securely.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── SERVICES ── -->
+  <section id="services">
+    <div class="services-header reveal">
+      <p class="services-eyebrow">WHAT I OFFER</p>
+      <h2>SERVICES</h2>
+      <p>
+        My project provides services such as user interaction, data management,
+        and real-time processing to ensure a smooth and efficient user experience.
+      </p>
+    </div>
+
+    <!-- Service 1 -->
+    <div class="service-row reveal">
+      <div class="service-title-col">
+        <h3>WEBSITE DEVELOPMENT</h3>
+      </div>
+      <div class="service-desc-col">
+        <p>I build responsive and user-friendly websites tailored to your needs using modern web technologies.</p>
+      </div>
+    </div>
+
+    <!-- Service 2 -->
+    <div class="service-row alt reveal">
+      <div class="service-title-col">
+        <h3>FRONT-END DEVELOPMENT</h3>
+      </div>
+      <div class="service-desc-col">
+        <p>I create visually appealing interfaces using HTML, CSS, JavaScript, and frameworks like React or Bootstrap.</p>
+      </div>
+    </div>
+
+    <!-- Service 3 -->
+    <div class="service-row reveal">
+      <div class="service-title-col">
+        <h3>BACK-END DEVELOPMENT</h3>
+      </div>
+      <div class="service-desc-col">
+        <p>I develop server-side logic, APIs, and database management using technologies like Node.js and MySQL.</p>
+      </div>
+    </div>
+
+    <!-- Service 4 -->
+    <div class="service-row alt reveal">
+      <div class="service-title-col">
+        <h3>DATABASE MANAGEMENT</h3>
+      </div>
+      <div class="service-desc-col">
+        <p>I design and manage databases to store and organize data efficiently and securely.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ── CONTACT ── -->
+  <section id="contact">
+    <div class="contact-wrap">
+      <div class="contact-left reveal">
+        <h2>Contact Us</h2>
+        <p class="contact-tagline">Any Questions or Remarks?<br>Just write us a message</p>
+
+        <div class="contact-detail">
+          <div class="contact-icon-box">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+          </div>
+          <span>occ.jayoma.justinearll@gmail.com</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon-box">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3" fill="white"/></svg>
+          </div>
+          <span>Laguindingan Mis, Or</span>
+        </div>
+        <div class="contact-detail">
+          <div class="contact-icon-box">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07A19.5 19.5 0 0 1 4.69 12 19.79 19.79 0 0 1 1.61 3.38 2 2 0 0 1 3.6 1.2h3a2 2 0 0 1 2 1.72c.127.96.361 1.903.7 2.81a2 2 0 0 1-.45 2.11L7.91 8.72a16 16 0 0 0 6 6l.91-.91a2 2 0 0 1 2.11-.45c.907.339 1.85.573 2.81.7A2 2 0 0 1 21.73 16c.195.23.304.525.27.92z"/></svg>
+          </div>
+          <span>+63 9392568056</span>
+        </div>
+
+        <div class="contact-socials">
+          <a href="https://facebook.com" target="_blank" class="csocial" title="Facebook">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/></svg>
+          </a>
+          <a href="https://instagram.com" target="_blank" class="csocial" title="Instagram">
+            <svg width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"/></svg>
+          </a>
+          <a href="https://wa.me/639392568056" target="_blank" class="csocial" title="WhatsApp">
+            <svg width="16" height="16" fill="currentColor" viewBox="0 0 24 24"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z"/></svg>
+          </a>
+        </div>
+      </div>
+
+      <form class="contact-form reveal" onsubmit="handleSubmit(event)">
+        <input type="text" class="cform-input" placeholder="Full Name" required />
+        <input type="email" class="cform-input" placeholder="Email Address" required />
+        <textarea class="cform-input" placeholder="Message" required></textarea>
+        <button type="submit" class="btn-submit">Submit</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── FOOTER ── -->
+  <footer>
+    <p>
+      <span class="brand">JX<span class="blue">Folio</span></span>
+      <span>&nbsp;·&nbsp; © 2026 &nbsp;·&nbsp; All rights reserved</span>
+    </p>
+  </footer>
+
+  <script>
+    // ── Hamburger / mobile drawer ──
+    const hamburger = document.getElementById('hamburger');
+    const drawer    = document.getElementById('mobileDrawer');
+
+    hamburger.addEventListener('click', () => {
+      hamburger.classList.toggle('open');
+      drawer.classList.toggle('open');
+      document.body.style.overflow = drawer.classList.contains('open') ? 'hidden' : '';
+    });
+
+    function closeDrawer() {
+      hamburger.classList.remove('open');
+      drawer.classList.remove('open');
+      document.body.style.overflow = '';
+    }
+
+    // ── Scroll reveal ──
+    const reveals = document.querySelectorAll('.reveal');
+    const obs = new IntersectionObserver((entries) => {
+      entries.forEach((entry, i) => {
+        if (entry.isIntersecting) {
+          setTimeout(() => entry.target.classList.add('visible'), i * 100);
+        }
+      });
+    }, { threshold: 0.1 });
+    reveals.forEach(el => obs.observe(el));
+
+    // ── Form submit ──
+    function handleSubmit(e) {
+      e.preventDefault();
+      const btn = e.target.querySelector('.btn-submit');
+      btn.textContent = '✓ Message Sent!';
+      btn.style.background = '#22C55E';
+      setTimeout(() => {
+        btn.textContent = 'Submit';
+        btn.style.background = '';
+        e.target.reset();
+      }, 3500);
+    }
+
+    // ── Active nav on scroll ──
+    const sections = document.querySelectorAll('section[id]');
+    const navAs = document.querySelectorAll('.nav-links a');
+    window.addEventListener('scroll', () => {
+      let cur = '';
+      sections.forEach(s => { if (window.scrollY >= s.offsetTop - 160) cur = s.id; });
+      navAs.forEach(a => {
+        a.style.color = a.getAttribute('href') === '#' + cur ? '#38b6ff' : '';
+      });
+    });
+  </script>
+</body>
+</html>
